@@ -7,7 +7,7 @@ import { BurgerIngredientsUI } from '../ui/burger-ingredients';
 import { ingredientsThunk } from './../../../src/services/ingredientsSlice';
 import { useDispatch, useSelector } from './../../../src/services/store';
 
-const BurgerIngredients: FC = () => {
+export const BurgerIngredients: FC = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -76,5 +76,3 @@ const BurgerIngredients: FC = () => {
     />
   );
 };
-
-export default BurgerIngredients;

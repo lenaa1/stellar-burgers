@@ -1,8 +1,6 @@
-import { useSelector } from '../../services/store';
-
 import styles from './constructor-page.module.css';
 
-import { BurgerIngredients } from '../../components';
+import { BurgerIngredients } from './../../../src/components/burger-ingredients/burger-ingredients';
 import { BurgerConstructor } from '../../components';
 import { Preloader } from '../../components/ui';
 import { FC } from 'react';
